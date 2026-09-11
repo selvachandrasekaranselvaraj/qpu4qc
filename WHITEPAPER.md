@@ -108,9 +108,9 @@ quadrantChart
     quadrant-2 The trusted fallback
     quadrant-3 The default first pass
     quadrant-4 Not a place any real level sits
-    MLIP (calibrated): [0.12, 0.45]
-    DFT reference: [0.78, 0.88]
-    Quantum (active space): [0.55, 0.93]
+    "MLIP (calibrated)": [0.12, 0.45]
+    "DFT reference": [0.78, 0.88]
+    "Quantum (active space)": [0.55, 0.93]
 ```
 
 **Why an ensemble's disagreement is a real signal, not a guess.**
