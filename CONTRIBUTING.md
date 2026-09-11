@@ -28,7 +28,7 @@ forms:
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-org>/qpu4qc.git
+git clone https://github.com/selvachandrasekaranselvaraj/qpu4qc.git
 cd qpu4qc/toy_demo
 python3 -m pip install -e ".[dev]"
 python3 -m pytest -v

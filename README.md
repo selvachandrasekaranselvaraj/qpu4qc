@@ -49,7 +49,7 @@ calibrated escalation, and a quantum level sharing one interface with two
 classical ones — runnable in under a second:
 
 ```bash
-git clone https://github.com/<your-org>/qpu4qc.git
+git clone https://github.com/selvachandrasekaranselvaraj/qpu4qc.git
 cd qpu4qc/toy_demo
 python3 demo.py
 ```
@@ -73,7 +73,11 @@ Building real HPC/ML infrastructure, or working on quantum chemistry,
 quantum hardware, or computational materials science, and want to work on
 this rather than just read about it?
 
-**[your name] — [email / LinkedIn / X handle]**
+**Selva Chandrasekaran Selvaraj**
+[GitHub](https://github.com/selvachandrasekaranselvaraj) ·
+[LinkedIn](https://www.linkedin.com/in/selvachandrasekaranselvaraj) ·
+[X / Twitter](https://x.com/selva_odc) ·
+[Hugging Face](https://huggingface.co/Selvauma)
 
 ## License
 
