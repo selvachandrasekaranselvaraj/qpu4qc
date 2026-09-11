@@ -1,0 +1,41 @@
+{
+  "_note": "Raw numbers backing results.md. The underlying DFT job and 200-structure AIMD sample are private research data and are not included in this repo; these are the measured summary values only.",
+  "surrogate_vs_dft_same_structure": {
+    "system": "real, DFT-relaxed 52-atom lithium argyrodite solid electrolyte",
+    "dft_aimd_seconds_per_step": 2.149,
+    "dft_optimization_seconds_per_step": 5.115,
+    "mlip_cpu_ms_per_evaluation": 1.58,
+    "mlip_gpu_h100_ms_per_evaluation": 0.48,
+    "speedup_vs_aimd": 4477,
+    "speedup_vs_optimization": 10656
+  },
+  "calibration_guard": {
+    "n_structures": 20,
+    "reference": "real multi-temperature ab initio MD",
+    "reported_sigma_min_eV": 0.0,
+    "reported_sigma_max_eV": 0.0,
+    "true_error_mean_eV": 3.623,
+    "true_error_max_eV": 5.431,
+    "calibration_result": "refused",
+    "refusal_reason": "reported uncertainty essentially constant (std=0.0) across all structures"
+  },
+  "mlip_error_vs_dft_200_structures": {
+    "n_structures": 200,
+    "temperatures_K": [300, 600, 900, 1200],
+    "mean_abs_error_eV": 2.790,
+    "mean_abs_error_meV_per_atom": 53.7,
+    "max_abs_error_eV": 5.669
+  },
+  "content_addressed_caching": {
+    "program_nodes": 16,
+    "cold_run_wall_clock_seconds_gpu": 17.8,
+    "cold_run_wall_clock_seconds_cpu": 84.6,
+    "warm_run_wall_clock_seconds": 0.0,
+    "warm_run_cache_hit_rate": 1.0
+  },
+  "quantum_bridge_validation": {
+    "system": "H2, STO-3G basis",
+    "mappings_checked": ["jordan_wigner", "parity"],
+    "vqe_vs_exact_diagonalization_hartree": 5.7e-11
+  }
+}
