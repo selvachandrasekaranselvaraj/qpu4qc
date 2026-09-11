@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this architecture, the toy reference implementation, or the benchmark results in your own work, please cite it as below."
+title: "qpu4qc: Bridging Quantum Chemistry and Quantum Hardware for Real-World Engineering"
+type: software
+authors:
+  - family-names: "Selvaraj"
+    given-names: "Selva Chandrasekaran"
+repository-code: "https://github.com/selvachandrasekaranselvaraj/qpu4qc"
+url: "https://github.com/selvachandrasekaranselvaraj/qpu4qc"
+abstract: >
+  An architecture for treating density functional theory, machine-learned
+  interatomic potentials, and quantum-hardware-computed active-space
+  energies as interchangeable, content-addressed, calibrated levels of one
+  computation graph - with a runnable toy reference implementation and
+  real, measured benchmark results.
+keywords:
+  - quantum computing
+  - quantum chemistry
+  - materials science
+  - computational chemistry
+  - machine-learned interatomic potentials
+  - density functional theory
+  - variational quantum eigensolver
+  - high performance computing
+license: MIT
+version: 0.1.0
+date-released: "2026-09-10"

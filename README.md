@@ -79,6 +79,17 @@ this rather than just read about it?
 [X / Twitter](https://x.com/selva_odc) ·
 [Hugging Face](https://huggingface.co/Selvauma)
 
+## Citation
+
+If this architecture, the toy reference implementation, or the benchmark
+results are useful in your own work, please cite via [`CITATION.cff`](CITATION.cff)
+(GitHub's "Cite this repository" button on this page uses it automatically).
+
+## Code of conduct & security
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md) — how to report a vulnerability
+
 ## License
 
 [MIT](LICENSE) for everything in this repository.
